@@ -1,2 +1,2 @@
 # UII
-hhhh
+Umetna inteligenca v informatiki
