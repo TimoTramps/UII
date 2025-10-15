@@ -1,21 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(156.0, 172.0)" />
-		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(344.0, 62.0)" />
-		<node id="2" name="Feature Statistics" qualified_name="Orange.widgets.data.owfeaturestatistics.OWFeatureStatistics" project_name="Orange3" version="" title="Feature Statistics" position="(344.0, 222.0)" />
-		<node id="3" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(503.0, 166.0)" />
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(153.16666666666663, 201.5)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(341.16666666666674, 91.50000000000006)" />
+		<node id="2" name="Feature Statistics" qualified_name="Orange.widgets.data.owfeaturestatistics.OWFeatureStatistics" project_name="Orange3" version="" title="Feature Statistics" position="(341.16666666666674, 251.5)" />
+		<node id="3" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(577.1666666666667, 147.50000000000006)" />
+		<node id="4" name="Box Plot" qualified_name="Orange.widgets.visualize.owboxplot.OWBoxPlot" project_name="Orange3" version="" title="Box Plot" position="(523.1666666666667, 271.83333333333337)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
 		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
 		<link id="2" source_node_id="1" sink_node_id="3" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="3" source_node_id="1" sink_node_id="4" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
 	</links>
 	<annotations />
 	<thumbnail />
 	<node_properties>
 		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/uizi/glass/glass_outliers.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/uizi/glass', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x034\x00\x00\x01K\x00\x00\x04K\x00\x00\x02\x9f\x00\x00\x035\x00\x00\x01j\x00\x00\x04J\x00\x00\x02\x9e\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x035\x00\x00\x01j\x00\x00\x04J\x00\x00\x02\x9e', '__version__': 3}</properties>
-		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01%\x00\x00\x01k\x00\x00\x04F\x00\x00\x03~\x00\x00\x01&amp;\x00\x00\x01\x8a\x00\x00\x04E\x00\x00\x03}\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01&amp;\x00\x00\x01\x8a\x00\x00\x04E\x00\x00\x03}', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [3, 32, 70, 72, 93, 179, 192, 194, 213], 'columns': [0, 1, 2, 3, 4, 5, 6, 7, 8]}, 'stored_sort': [('outlier', -1)], '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x008\x00\x00\x01R\x00\x00\x03Y\x00\x00\x03e\x00\x00\x009\x00\x00\x01q\x00\x00\x03X\x00\x00\x03d\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x009\x00\x00\x01q\x00\x00\x03X\x00\x00\x03d', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
 		<properties node_id="2" format="pickle">gASV3wEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
 ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAGyAAAA6wAABc0AAAL+AAABswAAAQoAAAXMAAAC
 /QAAAAAAAAAAB4AAAAGzAAABCgAABcwAAAL9lIwHc29ydGluZ5RLAIwDc2lwlIwOX3VucGlja2xl
@@ -40,6 +42,18 @@ Sv7///+GlIwGYXR0cl94lIwCaWSUS2aGlIwGYXR0cl95lIwHb3V0bGllcpRLZYaUaAp9lGgWSwV1
 jAphdHRyaWJ1dGVzlH2UKIwIdmFyXzAwMDCUSwKMCHZhcl8wMDAxlEsCjAh2YXJfMDAwMpRLAowI
 dmFyXzAwMDOUSwKMCHZhcl8wMDA0lEsCjAh2YXJfMDAwNZRLAowIdmFyXzAwMDaUSwJoKUsCaCxL
 AXWMBW1ldGFzlH2UdWJhdS4=
+</properties>
+		<properties node_id="4" format="pickle">gASVQQIAAAAAAAB9lCiMB2NvbXBhcmWUSwKMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNvcmRlcl9i
+eV9pbXBvcnRhbmNllImMHG9yZGVyX2dyb3VwaW5nX2J5X2ltcG9ydGFuY2WUiYwTc2F2ZWRXaWRn
+ZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAD0wAAAVYAAAdYAAADaQAAA9QAAAF1AAAHVwAAA2gAAAAA
+AAAAAAeAAAAD1AAAAXUAAAdXAAADaJSMEHNob3dfYW5ub3RhdGlvbnOUiIwLc2hvd19sYWJlbHOU
+iIwNc2lnX3RocmVzaG9sZJRHP6mZmZmZmZqMCnNvcnRfZnJlcXOUiYwIc3RhdHRlc3SUSwCMCXN0
+cmV0Y2hlZJSIjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lk
+Z2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJYXR0cmlidXRllIwI
+dmFyXzAwMDGUS2aGlIwJZ3JvdXBfdmFylIwHb3V0bGllcpRLZYaUjAlzZWxlY3Rpb26UKUr+////
+hpRoDUsBdYwKYXR0cmlidXRlc5R9lCiMCHZhcl8wMDAwlEsCaBhLAowIdmFyXzAwMDKUSwKMCHZh
+cl8wMDAzlEsCjAh2YXJfMDAwNJRLAowIdmFyXzAwMDWUSwKMCHZhcl8wMDA2lEsCjAJpZJRLAmgb
+SwF1jAVtZXRhc5R9lHViYXUu
 </properties>
 	</node_properties>
 	<session_state>
