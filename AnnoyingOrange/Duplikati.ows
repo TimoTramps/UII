@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="Data Info" qualified_name="Orange.widgets.data.owdatainfo.OWDataInfo" project_name="Orange3" version="" title="Data Info" position="(420.0, 462.0)" />
-		<node id="1" name="Unique" qualified_name="Orange.widgets.data.owunique.OWUnique" project_name="Orange3" version="" title="Unique" position="(570.0, 382.0)" />
-		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(461.0, 215.0)" />
-		<node id="3" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(738.0, 350.0)" />
-		<node id="4" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances (1)" position="(909.0, 283.0)" />
-		<node id="5" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(281.0, 430.0)" />
-		<node id="6" name="Data Info" qualified_name="Orange.widgets.data.owdatainfo.OWDataInfo" project_name="Orange3" version="" title="Data Info (1)" position="(573.0, 770.0)" />
-		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (2)" position="(532.0, 611.0)" />
-		<node id="8" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances (1) (1)" position="(980.0, 679.0)" />
-		<node id="9" name="MDS" qualified_name="Orange.widgets.unsupervised.owmds.OWMDS" project_name="Orange3" version="" title="MDS" position="(1137.0, 603.0)" />
-		<node id="10" name="Hierarchical Clustering" qualified_name="Orange.widgets.unsupervised.owhierarchicalclustering.OWHierarchicalClustering" project_name="Orange3" version="" title="Hierarchical Clustering" position="(1152.0, 707.0)" />
-		<node id="11" name="Distance Map" qualified_name="Orange.widgets.unsupervised.owdistancemap.OWDistanceMap" project_name="Orange3" version="" title="Distance Map" position="(1159.0, 822.0)" />
-		<node id="12" name="Distance Matrix" qualified_name="Orange.widgets.unsupervised.owdistancematrix.OWDistanceMatrix" project_name="Orange3" version="" title="Distance Matrix" position="(1145.0, 937.0)" />
-		<node id="13" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File (1)" position="(352.0, 826.0)" />
+		<node id="0" name="Data Info" qualified_name="Orange.widgets.data.owdatainfo.OWDataInfo" project_name="Orange3" version="" title="Data Info" position="(366.0, 329.0)" />
+		<node id="1" name="Unique" qualified_name="Orange.widgets.data.owunique.OWUnique" project_name="Orange3" version="" title="Unique" position="(516.0, 249.0)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(407.0, 82.0)" />
+		<node id="3" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(684.0, 217.0)" />
+		<node id="4" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances (1)" position="(855.0, 150.0)" />
+		<node id="5" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(227.0, 297.0)" />
+		<node id="6" name="Data Info" qualified_name="Orange.widgets.data.owdatainfo.OWDataInfo" project_name="Orange3" version="" title="Data Info (1)" position="(397.0, 626.0)" />
+		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (2)" position="(356.0, 467.0)" />
+		<node id="8" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances (1) (1)" position="(804.0, 535.0)" />
+		<node id="9" name="MDS" qualified_name="Orange.widgets.unsupervised.owmds.OWMDS" project_name="Orange3" version="" title="MDS" position="(961.0, 459.0)" />
+		<node id="10" name="Hierarchical Clustering" qualified_name="Orange.widgets.unsupervised.owhierarchicalclustering.OWHierarchicalClustering" project_name="Orange3" version="" title="Hierarchical Clustering" position="(976.0, 563.0)" />
+		<node id="11" name="Distance Map" qualified_name="Orange.widgets.unsupervised.owdistancemap.OWDistanceMap" project_name="Orange3" version="" title="Distance Map" position="(983.0, 678.0)" />
+		<node id="12" name="Distance Matrix" qualified_name="Orange.widgets.unsupervised.owdistancematrix.OWDistanceMatrix" project_name="Orange3" version="" title="Distance Matrix" position="(969.0, 793.0)" />
+		<node id="13" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File (1)" position="(176.0, 682.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="1" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
@@ -101,39 +101,39 @@ gZR9lChoHX2UKGg1jAlSaXNrTGV2ZWyUS2WGlGg3Tkr+////hpRoOk5K/v///4aUaDxOSv7///+G
 lGg+fZRoFUsDdWgpfZQojANBZ2WUSwKMClN5c3RvbGljQlCUSwKMC0RpYXN0b2xpY0JQlEsCjAJC
 U5RLAowIQm9keVRlbXCUSwKMCUhlYXJ0UmF0ZZRLAowJUmlza0xldmVslEsBdWgwfZR1YmV1Lg==
 </properties>
-		<properties node_id="10" format="pickle">gASV8QIAAAAAAAB9lCiMF2Fubm90YXRpb25faWZfZW51bWVyYXRllIwLRW51bWVyYXRpb26UjBNh
+		<properties node_id="10" format="pickle">gASVDQMAAAAAAAB9lCiMF2Fubm90YXRpb25faWZfZW51bWVyYXRllIwLRW51bWVyYXRpb26UjBNh
 bm5vdGF0aW9uX2lmX25hbWVzlIwETmFtZZSMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNp
 YmxllIiMCWN1dF9yYXRpb5RHQFLAAAAAAACMEWxhYmVsX29ubHlfc3Vic2V0lImMB2xpbmthZ2WU
 SwSMCW1heF9kZXB0aJRLCowHcHJ1bmluZ5RLAIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsA
-AwAAAAABhQAAAIAAAAR6AAACkgAAAYYAAACeAAAEeQAAApEAAAAAAAAAAAYAAAABhgAAAJ4AAAR5
-AAACkZSMEHNlbGVjdGlvbl9tZXRob2SUSwCMBXRvcF9ulEsDjAt6b29tX2ZhY3RvcpRLAIwLX192
-ZXJzaW9uX1+USwKMFF9fc2Vzc2lvbl9zdGF0ZV9kYXRhlH2UjAd2ZXJzaW9ulEsASwBLAIeUc4wQ
-Y29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5Qp
-gZR9lCiMBnZhbHVlc5R9lCiMCmFubm90YXRpb26UjARpcmlzlEtlhpSMCGNvbG9yX2J5lGggS2WG
-lGgRSwJ1jAphdHRyaWJ1dGVzlH2UKIwMc2VwYWwgbGVuZ3RolEsCjAtzZXBhbCB3aWR0aJRLAowM
-cGV0YWwgbGVuZ3RolEsCjAtwZXRhbCB3aWR0aJRLAmggSwF1jAVtZXRhc5R9lHViaBopgZR9lCho
-HX2UKGgfjAlSaXNrTGV2ZWyUS2WGlGgiaC9LZYaUaBFLAnVoJH2UKIwDQWdllEsCjApTeXN0b2xp
-Y0JQlEsCjAtEaWFzdG9saWNCUJRLAowCQlOUSwKMCEJvZHlUZW1wlEsCjAlIZWFydFJhdGWUSwKM
-CVJpc2tMZXZlbJRLAXVoKn2UdWJldS4=
+AwAAAAAA8wAAAFQAAAPoAAACZwAAAPQAAABzAAAD5wAAAmYAAAAAAAAAAAeAAAAA9AAAAHMAAAPn
+AAACZpSMEHNlbGVjdGlvbl9tZXRob2SUSwCMBXRvcF9ulEsDjAt6b29tX2ZhY3RvcpRK/////4wL
+X192ZXJzaW9uX1+USwKMFF9fc2Vzc2lvbl9zdGF0ZV9kYXRhlH2UjAd2ZXJzaW9ulEsASwBLAIeU
+c4wQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMBnZhbHVlc5R9lCiMCmFubm90YXRpb26UjARpcmlzlEtlhpSMCGNvbG9yX2J5lGgg
+S2WGlGgRSwJ1jAphdHRyaWJ1dGVzlH2UKIwMc2VwYWwgbGVuZ3RolEsCjAtzZXBhbCB3aWR0aJRL
+AowMcGV0YWwgbGVuZ3RolEsCjAtwZXRhbCB3aWR0aJRLAowEaXJpc5RLAXWMBW1ldGFzlH2UdWJo
+GimBlH2UKGgdfZQojAphbm5vdGF0aW9ulIwJUmlza0xldmVslEtlhpSMCGNvbG9yX2J5lGgxS2WG
+lGgRSwJ1aCR9lCiMA0FnZZRLAowKU3lzdG9saWNCUJRLAowLRGlhc3RvbGljQlCUSwKMAkJTlEsC
+jAhCb2R5VGVtcJRLAowJSGVhcnRSYXRllEsCjAlSaXNrTGV2ZWyUSwF1aCt9lHViZXUu
 </properties>
-		<properties node_id="11" format="pickle">gASV/QIAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwLY29sb3JfZ2FtbWGURwAAAAAAAAAAjApjb2xv
+		<properties node_id="11" format="pickle">gASVDAMAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwLY29sb3JfZ2FtbWGURwAAAAAAAAAAjApjb2xv
 cl9oaWdolEc/8AAAAAAAAIwJY29sb3JfbG93lEcAAAAAAAAAAIwSY29udHJvbEFyZWFWaXNpYmxl
 lIiMDHBhbGV0dGVfbmFtZZSMFWxpbmVhcl9iZ3l3XzIwXzk4X2M2NpSMEXBlbmRpbmdfc2VsZWN0
-aW9ulF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAFzAAAAgAAABI0AAAKSAAAB
-dAAAAJ4AAASMAAACkQAAAAAAAAAABgAAAAF0AAAAngAABIwAAAKRlIwHc29ydGluZ5RLAIwLX192
+aW9ulF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAIrAAAAvQAABUUAAALQAAAC
+LAAAANwAAAVEAAACzwAAAAAAAAAAB4AAAAIsAAAA3AAABUQAAALPlIwHc29ydGluZ5RLAIwLX192
 ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OU
 jAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojA5hbm5vdGF0aW9uX2lkeJRLAEr+////hpRo
 DUsBdYwKYXR0cmlidXRlc5QojAxzZXBhbCBsZW5ndGiUSwKGlIwLc2VwYWwgd2lkdGiUSwKGlIwM
 cGV0YWwgbGVuZ3RolEsChpSMC3BldGFsIHdpZHRolEsChpR0lIwFbWV0YXOUKYwKY2xhc3NfdmFy
-c5SMBGlyaXOUSwGGlIWUdWJoEimBlH2UKGgVfZQoaBdLAEr+////hpRoDUsBdWgZKIwDQWdllEsC
-hpSMClN5c3RvbGljQlCUSwKGlIwLRGlhc3RvbGljQlCUSwKGlIwCQlOUSwKGlIwIQm9keVRlbXCU
-SwKGlIwJSGVhcnRSYXRllEsChpSMCVJpc2tMZXZlbJRLAYaUdJRoIyloJCl1YmgSKYGUfZQoaBV9
-lCiMDmFubm90YXRpb25faWR4lEsASv7///+GlGgNSwF1aBkoaCxLAoaUaC5LAoaUaDBLAoaUaDJL
-AoaUaDRLAoaUaDZLAoaUdJRoIyloJGg4SwGGlIWUdWJldS4=
+c5SMBGlyaXOUSwGGlIWUdWJoEimBlH2UKGgVfZQojA5hbm5vdGF0aW9uX2lkeJRLAEr+////hpRo
+DUsBdWgZKIwDQWdllEsChpSMClN5c3RvbGljQlCUSwKGlIwLRGlhc3RvbGljQlCUSwKGlIwCQlOU
+SwKGlIwIQm9keVRlbXCUSwKGlIwJSGVhcnRSYXRllEsChpSMCVJpc2tMZXZlbJRLAYaUdJRoIylo
+JCl1YmgSKYGUfZQoaBV9lCiMDmFubm90YXRpb25faWR4lEsASv7///+GlGgNSwF1aBkoaC1LAoaU
+aC9LAoaUaDFLAoaUaDNLAoaUaDVLAoaUaDdLAoaUdJRoIyloJGg5SwGGlIWUdWJldS4=
 </properties>
 		<properties node_id="12" format="pickle">gASV3QMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
-ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAFvAAAAgAAABJAAAAKSAAABcAAAAJ4AAASPAAAC
-kQAAAAAAAAAABgAAAAFwAAAAngAABI8AAAKRlIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAIjAAAAqgAABUQAAAK9AAACJAAAAMkAAAVDAAAC
+vAAAAAAAAAAAB4AAAAIkAAAAyQAABUMAAAK8lIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
 dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1
 ZXOUfZRoBUsCc4wFc2hhcGWUS5ZLloaUjAlzeW1tZXRyaWOUiIwLYW5ub3RhdGlvbnOUXZQojARO
 b25llIwJRW51bWVyYXRllIwMc2VwYWwgbGVuZ3RolIwLc2VwYWwgd2lkdGiUjAxwZXRhbCBsZW5n
